@@ -1,0 +1,11 @@
+#如何添加ssl证书，我有CRT和KEY文件，请教您~
+{
+    "address": "0.0.0.0",
+   "port": 443,
+    "log": "stdout",
+    "tls": {
+        "cert": "/path/to/mycert.crt",
+        "key": "/path/to/mykey.key"
+    },
+    ...
+}
